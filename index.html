@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="https://placehold.co/100"
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <div class="flex-container">
+    <style>
+      .flex-container-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+
+      .flex-container-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .flex-container img {
+        width: 100px;
+        margin: 5px;
+      }
+    </style>
+    <div class="flex-container flex-container-row">
       <img src="https://via.placeholder.com/150" alt="Image 1" />
       <img src="https://via.placeholder.com/150" alt="Image 2" />
       <img src="https://via.placeholder.com/150" alt="Image 3" />
